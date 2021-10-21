@@ -1,0 +1,19 @@
+{
+  "name": "eleventy",
+  "version": "1.0.0",
+  "description": "First website made with 11ty",
+  "main": "index.js",
+  "author": "Ishan Bagchi",
+  "license": "MIT",
+  "scripts": {
+    "start": "eleventy --serve",
+    "build": "eleventy",
+    "deploy": "gh-pages -d public"
+  },
+  "dependencies": {
+    "@11ty/eleventy": "^0.12.1"
+  },
+  "devDependencies": {
+    "gh-pages": "^3.2.3"
+  }
+}
